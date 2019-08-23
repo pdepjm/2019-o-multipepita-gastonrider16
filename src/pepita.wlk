@@ -92,3 +92,12 @@ object manzana {
 		return 50
 	}	
 }
+
+object entrenador {
+	method entrenar(pepita){
+		pepita.vola(5)
+		pepita.come(alpiste)
+		pepita.vola(5)
+		pepita.haceLoQueQuieras()
+	}
+}
